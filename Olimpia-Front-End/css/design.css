@@ -1,0 +1,592 @@
+/*!
+ * Start Bootstrap - Creative v5.0.1 (https://startbootstrap.com/template-overviews/creative)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
+ */
+
+/*representa quebras de parágrafo por uma linha horizontal.*/
+
+hr {
+    max-width: 200px;
+    border-width: 3px;
+    border-color: #cb8933
+}
+
+a {
+    color: white;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    margin: .5rem;
+}
+
+    a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-white {
+    background-color: #fff !important
+}
+
+.bg-dark {
+    background-color: #171719 !important
+}
+
+.text-faded {
+    font-size: 1.25rem !important;
+    color: rgba(255, 255, 255, .7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::-moz-selection {
+    color: #fff;
+    background: #171719;
+    text-shadow: none
+}
+
+::selection {
+    color: #fff;
+    background: #171719;
+    text-shadow: none
+}
+
+img::-moz-selection {
+    color: #fff;
+    background: 0 0
+}
+
+img::selection {
+    color: #fff;
+    background: 0 0
+}
+
+img::-moz-selection {
+    color: #fff;
+    background: 0 0
+}
+
+/*Aqui é definido o design dos links de navegação.
+São definidos como: webkit transition é onde permite a mudança do elemento
+e transition é a definição do tempo dessa mudança */
+
+#mainNav {
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+    #mainNav .navbar-brand {
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #cb8933;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+        #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+            color: #cb8933
+        }
+
+    #mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+        font-size: .9rem;
+        text-transform: uppercase;
+        color: #171719
+    }
+
+        #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
+            color: #cb8933
+        }
+
+        #mainNav .navbar-nav > li.nav-item > a.nav-link.active, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+            color: #cb8933 !important;
+            background-color: transparent
+        }
+
+            #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+                background-color: transparent
+            }
+
+@media (min-width:992px) {
+    #mainNav {
+        border-color: transparent;
+        background-color: transparent
+    }
+
+        #mainNav .navbar-brand {
+            color: rgba(255, 255, 255, .7)
+        }
+
+            #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+                color: #fff
+            }
+
+        #mainNav .navbar-nav > li.nav-item > a.nav-link {
+            padding: .5rem 1rem
+        }
+
+            #mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+                color: rgba(255, 255, 255, .7)
+            }
+
+                #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
+                    color: #fff
+                }
+
+        #mainNav.navbar-shrink {
+            background-color: #fff
+        }
+
+            #mainNav.navbar-shrink .navbar-brand {
+                color: #cb8933
+            }
+
+                #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+                    color: #cb8933
+                }
+
+            #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+                color: #171719
+            }
+
+                #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover {
+                    color: #cb8933
+                }
+}
+
+@media (min-width:768px) {
+    header.header-back p {
+        font-size: 1.15rem
+    }
+}
+
+@media (min-width:992px) {
+    header.header-back {
+        /*height: 100vh;*/
+        min-height: 650px;
+        padding-top: 0;
+        padding-bottom: 0
+    }
+
+        header.header-back h1 {
+            font-size: 3rem
+        }
+}
+
+@media (min-width:1200px) {
+    header.header-back h1 {
+        font-size: 4rem
+    }
+}
+
+.service-box {
+    max-width: 400px
+}
+
+/*-----------------------------------------------------------------
+-----------------------------------------------------------------*/
+
+/*ID's e classes que eu fiz e/ou editei aqui*/
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body, html {
+    width: 100%;
+    height: 100%
+}
+
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+
+
+section {
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+
+header.header-back {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    /*background-image: url(../img/clouds.jpg);*/
+    background-position: center center;
+    background-size: cover;
+}
+
+    header.header-back img {
+        filter: brightness(70%);
+    }
+
+    header.header-back hr {
+        margin-top: 25px;
+        margin-bottom: 30px
+    }
+
+    header.header-back h1 {
+        font-size: 3rem
+    }
+
+    header.header-back p {
+        font-weight: 300
+    }
+
+#textCenter {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center !important
+}
+
+#btn {
+    margin-top: 1rem;
+    width: 10rem;
+    padding: .5rem !important;
+    text-decoration: none;
+    color: #cb8933;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+}
+
+    #btn:hover {
+        color: #fff;
+        background-color: #000;
+        transition: 0.5s;
+    }
+
+footer {
+    height: 8rem;
+    background-color: #cb8933;
+}
+
+#column {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+#boxes {
+    max-width: 400px;
+    margin-top: 3rem !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+#boxDescription {
+    margin-bottom: 0 !important;
+    color: #6c757d !important;
+}
+
+#line2 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+#headerSubtext {
+    color: rgba(255, 255, 255, .7);
+    margin-bottom: 4.5rem !important;
+    font-weight: 400;
+}
+
+h1 {
+    margin-bottom: .4rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.;
+    color: inherit;
+    font-size: 3.5rem;
+    margin-top: 0;
+}
+
+.pd-footer {
+    padding-left: 15%;
+}
+
+.subContainer {
+    margin-top: -1%;
+    background-color: #171719;
+    width: 100%;
+    height: 5rem;
+    border-top: solid 2px;
+    padding-bottom: 5%;
+    z-index: 1;
+}
+
+.iconsRedes {
+    margin-top: 1.5rem !important;
+    margin-left: -2%;
+    float: right;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+    .iconsRedes img {
+        width: 35%;
+        height: 35%;
+    }
+
+        .iconsRedes img:hover {
+            opacity: 0.5;
+        }
+
+.mb-3 {
+    margin-bottom: 1rem !important;
+    margin-top: 1rem !important;
+}
+
+.txtSub {
+    margin-top: 2rem !important;
+    float: left;
+    padding-left: 2%;
+}
+
+/* ---------------- página de login ------------------*/
+
+
+/*Usar unidades como % e rem (unidade de proporção*/
+
+#back-img {
+    /*padding-top: 6rem;
+    padding-bottom: calc(10rem - 56px);*/
+    height: -webkit-fill-available;
+    background-image: url(../img/background1.png);
+    background-color: black;
+    background-position: right;
+    background-size: cover;
+}
+
+#back-img-cadastro {
+    /*padding-top: 0;
+    padding-bottom: initial;*/
+    height: -webkit-fill-available;
+    background-image: url(../img/background1.png);
+    background-color: black;
+    background-position: right;
+    background-size: cover;
+}
+
+.userField {
+    width: 50%;
+    background-color: transparent;
+    border: solid 1px;
+    border-color: #fff;
+    color: #fff;
+    margin: 1rem !important;
+    padding: 1.5%;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 12px;
+}
+
+
+
+.btn-login {
+    width: 10rem;
+    margin-left: 1rem;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+    padding: .5rem !important;
+    text-decoration: none;
+    color: #cb8933;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+}
+
+    .btn-login:hover {
+        color: #fff;
+        background-color: #000;
+        transition: 0.5s;
+    }
+
+::placeholder {
+    color: #fff;
+    opacity: 0.7; /* Firefox */
+}
+
+
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+
+#login-txt {
+    color: rgba(255, 255, 255, .7);
+    margin-bottom: .5rem !important;
+    font-weight: 400;
+}
+
+form {
+    width: 100%;
+    margin: auto;
+}
+
+
+.optiontxt1 {
+    float: left;
+    width: 50%;
+    margin-top: 1rem;
+    color: white;
+    font-size: 1rem;
+}
+
+#link-register {
+    padding-right: 4rem;
+    color:white;
+}
+
+.optiontxt1 a {
+    text-decoration: none;
+}
+
+
+
+    .optiontxt1 a:hover {
+        color: #fff;
+        transition: 0.5s;
+    }
+
+.clearfix {
+    width: 60%;
+    margin: auto;
+}
+
+/*-------------fim da página de login-------------------*/
+
+/*-------------inicio da página de cadastro-------------------*/
+
+.form-cadastro {
+    width: 90%;
+    background-color: transparent;
+    border: solid 1px;
+    border-color: #fff;
+    color: #fff;
+    margin: 1rem;
+    padding: 1.5%;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 12px;
+}
+
+.complEnd {
+    background-color: transparent;
+    border: solid 1px;
+    border-color: #fff;
+    color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1.5%;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 12px;
+    width: 60%;
+    float: right;
+    margin-right: 1rem;
+}
+
+.num {
+    background-color: transparent;
+    border: solid 1px;
+    border-color: #fff;
+    color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1.5%;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 12px;
+    width: 15%;
+    float: left;
+    margin-left: 1rem;
+    margin-right: 0;
+}
+
+
+#coluna-1 {
+    width: 50%;
+    float: left;
+}
+
+#coluna-2 {
+    width: 50%;
+    float: right;
+}
+
+
+
+/*-------------fim da página de cadastro-------------------*/
+
+.header0 {
+    width: 100%;
+    /*height: 100vh;*/
+    background: url(../img/athenagold.jpg) 20% 20%;
+    background-size: cover;
+}
+
+
+.navbar-no-margin {
+    position: relative;
+    padding-top:0.5rem;
+    padding-bottom: 0.5rem;
+    min-height: 50px;
+    
+}
+
+.divider-sections {
+    border-bottom: 1px solid #D6D6D6;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-left: 45rem;
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+    margin-right: 50rem;
+    align-content: center;
+}
+
+.title-box {
+    color: azure;
+}
+
+.btn-nav-link {
+    background-color: transparent;
+    border: solid 2px;
+    border-color: white;
+    margin: 1rem;
+    height: 3rem;
+    padding: .5rem;
+    text-transform: uppercase;
+}
+
+.txt-nav-link {
+    margin: .5rem;
+}
