@@ -81,6 +81,7 @@
     <Content Include="img\athenagold.png" />
     <Content Include="img\athenalogogold.png" />
     <Content Include="img\background.png" />
+    <Content Include="img\background1.png" />
     <Content Include="img\carousel1.png" />
     <Content Include="img\carousel2.png" />
     <Content Include="img\carousel3.png" />

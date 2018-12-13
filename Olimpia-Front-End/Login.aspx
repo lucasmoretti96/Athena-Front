@@ -18,20 +18,20 @@ Usem bastante o Inspecionar no navegador, dêem um check na responsividade. ****
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
 
-    <link rel="shortcut icon" href="img/logoblack.png">
+    <link rel="shortcut icon" href="img/logoblack.png"/>
 
     <title>Olimpia | Login</title>
 
     <!-- Bootstrap CSS -->
-    <link href="responsive/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="responsive/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
 
     <!-- Aqui estará todo o CSS para definir o estilo da página.-->
-    <link href="css/design.css" rel="stylesheet">
+    <link href="css/design.css" rel="stylesheet"/>
 </head>
 <body>
 
@@ -42,9 +42,8 @@ Usem bastante o Inspecionar no navegador, dêem um check na responsividade. ****
                 <!--Essas 3 classes definem a estrutura do bg-->
                 <div class="col-lg-10 mx-auto">
                     <h1 class="text-uppercase" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
-                        <strong style="font">Login
+                        <strong>Login
                         </strong>
-                        <hr>
                     </h1>
                 </div>
                 <div class="col-lg-8 mx-auto">
