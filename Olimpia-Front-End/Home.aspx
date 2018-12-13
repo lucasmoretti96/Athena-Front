@@ -26,7 +26,7 @@
     <!--JS Bootstrap-->
     <script src="responsive/bootstrap/bootstrap.min.js"></script>
 
-    <link rel="shortcut icon" href="img/logoblack.png" />
+    <link rel="shortcut icon" href="./img/logoblack.png" />
 
 </head>
 <body style="background-color: black">
@@ -66,13 +66,13 @@
             <!-- Wrapper for carousel items -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="img/carousel1.png" alt="First Slide">
+                    <img src="img/carousel1.png" alt="First Slide"/>
                 </div>
                 <div class="item">
-                    <img src="img/carousel2.png" alt="Second Slide">
+                    <img src="img/carousel2.png" alt="Second Slide"/>
                 </div>
                 <div class="item">
-                    <img src="img/carousel3.png" alt="Third Slide">
+                    <img src="img/carousel3.png" alt="Third Slide"/>
                 </div>
             </div>
             <!-- Carousel controls -->

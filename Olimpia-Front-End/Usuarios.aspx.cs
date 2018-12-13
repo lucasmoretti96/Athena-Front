@@ -270,7 +270,7 @@ namespace Olimpia_Front_End
         #endregion
 
         #region Alimentando a ddlUserDel
-        public async void feedDdlUserDel()
+        public void feedDdlUserDel()
         {
             if (ddlUserEdit.Text == "")
             {
@@ -296,8 +296,6 @@ namespace Olimpia_Front_End
                         }
 
                     }
-
-                    conn2.Close();
                 }
             }
         }

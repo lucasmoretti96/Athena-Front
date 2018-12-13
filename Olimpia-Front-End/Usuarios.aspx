@@ -7,8 +7,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Athena | Usuários</title>
     <link rel="shortcut icon" href="img/athenablack.png" />
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <!--Link CSS utilizado-->
     <link rel="stylesheet" href="css/pages.css" />
