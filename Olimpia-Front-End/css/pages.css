@@ -10,7 +10,6 @@
 .nav-link-side {
     display: relative;
     padding: .2rem;
-    
     margin-right: 1rem;
     position: fixed;
 }
@@ -29,11 +28,12 @@
     border-radius: 1rem;
 }
 
-#box2{  
+#box2 {
     padding: 2rem;
     border-radius: 1rem;
 }
-#box3{
+
+#box3 {
     padding: 2rem;
     border-radius: 1rem;
 }
@@ -59,19 +59,18 @@
 
 
 
-.title-item{
+.title-item {
     width: 20%;
     text-decoration: none;
     float: left;
     font-size: 2rem;
 }
 
-.btn-new{
+.btn-new {
     background-color: #cb8933;
     color: white;
     border: solid 1px;
     margin-top: 0.7rem;
-   
 }
 
 .btn-new-user {
@@ -84,8 +83,7 @@
 }
 
 .box-right {
-float: right;
-
+    float: right;
 }
 
 button.btn-nav {
@@ -117,7 +115,6 @@ button.btn-nav {
     /*width: 68px;*/
     padding: 0.6rem 1rem;
     cursor: pointer;
-    
     float: right;
 }
 
@@ -137,7 +134,6 @@ button.btn-nav {
     /*width: 68px;*/
     padding: 0.6rem 1rem;
     cursor: pointer;
-    
     float: right;
 }
 
@@ -157,7 +153,6 @@ button.btn-nav {
     /*width: 68px;*/
     padding: 0.6rem 1rem;
     cursor: pointer;
-    
 }
 
 .btn-pages-show {
@@ -226,11 +221,11 @@ button.btn-nav {
     /*margin: 0 auto;*/
 }
 
-    .btn-pages:active {
-        cursor: pointer;
-        position: relative;
-        top: 2px;
-    }
+.btn-pages:active {
+    cursor: pointer;
+    position: relative;
+    top: 2px;
+}
 
 .line-section {
     width: 100%;
@@ -241,8 +236,7 @@ button.btn-nav {
     color: #cb8933;
     border-radius: 2rem;
     border: none;
-    text-size-adjust:150%;
-    
+    text-size-adjust: 150%;
 }
 
 .btn-section {
@@ -283,7 +277,6 @@ button.btn-nav {
     margin: 5px;
     padding: 1rem;
     border-radius: 10px;
-    
 }
 
 
@@ -295,28 +288,62 @@ button.btn-nav {
 .title-pages-w {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
-    color:#777;
-    
+    color: #777;
 }
 
 .subtitle-pages {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align:justify;
+    text-align: justify;
 }
 
 .subtitle-pages-w {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: justify;
-    color:#777;
+    color: #777;
 }
 
 .img-card {
-    width:50%; 
-    height:50%;
-    align-content: center    
+    width: 50%;
+    height: 50%;
+    align-content: center
 }
 
 .new-form {
     width: 50%;
-    margin:auto
+    margin: auto
+}
+
+.piechart {
+    background-color: white;
+    width: 100%;
+   
+    border: 1px #cfcecf;
+    border-radius: 10px;
+    margin:2rem;
+}
+
+.donutchart {
+    background-color: white;
+    width: 100%;
+    
+    border: 1px #cfcecf;
+    border-radius: 10px;
+    margin: 2rem;
+}
+
+.linechart {
+    background-color: white;
+    width: 100%;
+    border: 1px #cfcecf;
+    border-radius: 10px;
+    margin: 2rem;
+}
+
+.card-dash {
+    background-color: white;
+    width: 100%;
+    border: 1px #cfcecf;
+    border-radius: 10px;
+  
+    padding-top: 0.5rem;
 }

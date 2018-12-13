@@ -47,7 +47,7 @@ function drawChart() {
             bold: true,    // true or false
             italic: false  // true of false
         },
-        title: 'Memória RAM',
+        title: '',
         is3D: false,
         slices: { 0: { color: '#cb8933' }, 1: { color: '#171719' } }
     };

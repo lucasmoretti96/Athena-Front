@@ -85,7 +85,7 @@
                                 <span>Outras informações</span>
                                 <a class="d-flex align-items-center text-muted" href="#"></a>
                             </h6>
-                           
+
                             <li class="nav-item">
                                 <a class="nav-link-side" href="Maquinas.aspx" style="color: black">Suas Máquinas
                                 </a>
@@ -98,38 +98,48 @@
                                 <a class="nav-link-side" href="Usuarios.aspx" style="color: black">Usuários cadastrados
                                 </a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link-side" href="PowerBi.aspx" style="color: black">Informações avançadas
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </nav>
 
+
+
+
+
                 <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
-                    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <div class="container-fluid">
                         <h1 class="title-pages">Dashboard</h1>
+                        <hr style="border-color: #cfcecf; margin-bottom: 10px" />
                         <br />
-                        <div class="table-responsive">
+                    </div>
+
+
+                    <div class="container-fluid card-dash">
+                        <div class="table-responsive card-dash">
                             <asp:PlaceHolder ID="PlaceHolder3" runat="server" />
                         </div>
-                        <div class="btn-toolbar mb-2 mb-md-0">
-
-<%--                            <asp:Button CssClass="btn-pages-show" runat="server" ID="btnInfos" text="Informações Avançadas" OnClick="btnInfos_Click" />--%>
-                            <%--<button class="btn btn-sm btn-outline-secondary dropdown-toggle">
-                                Informações Avançadas
-                            </button>--%>
-                        </div>
                     </div>
-                    <br />
-                    <hr style="border-color: #cfcecf; margin-bottom: 10px" />
-                    <div class="container-fluid">
+                   
+                    <div class="container-fluid linechart" style="background-color: white">
                         <div class="box7">
-                            <center><h2>Uso CPU</h2></center>
-                            <div id="chart_div" class="linechart" style="border: solid 1px #cfcfcf; border-radius: 10px"></div>
+                            <center><h2 class="title-pages">Uso CPU</h2></center>
+                            <div id="chart_div" class="linechart"></div>
                         </div>
                     </div>
-                    <br />
-                    <div class="container-fluid">
-                        <div id="piechart_RAM" style="width: 45rem; float: left; height: 45rem; margin-right: 2rem; margin-top: 1rem; border: solid 1px #cfcfcf; border-radius: 10px"></div>
 
-                        <div id="donutchart" style="width: 45rem; float: right; height: 45rem; margin-top: 1rem; border: solid 1px #cfcfcf; border-radius: 10px"></div>
+
+                    <div class="container-fluid piechart">
+                        <center><h2 class="title-pages">Memória RAM</h2></center>
+                        <div id="piechart_RAM"></div>
+                    </div>
+
+                    <div class="container-fluid donutchart">
+                        <center><h2 class="title-pages">Disco Rígido</h2></center>
+                        <div id="donutchart"></div>
                     </div>
                 </main>
             </div>

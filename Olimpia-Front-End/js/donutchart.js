@@ -45,7 +45,7 @@ function drawChart() {
             bold: true,    // true or false
             italic: false  // true of false
         },
-        title: 'Uso HD',
+        title: '',
         pieHole: 0.4,
         slices: { 0: { color: '#cb8933' }, 1: { color: '#171719' } }
     };

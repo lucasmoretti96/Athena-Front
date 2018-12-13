@@ -10,7 +10,7 @@ function drawChart() {
         var options = {
             titleTextStyle: {
                 color: '#333',    // any HTML string color ('red', '#cc00cc')
-
+                
                 fontSize: 22, // 12, 18 whatever you want (don't specify px)
                 bold: true,    // true or false
             },
@@ -51,5 +51,5 @@ function drawChart() {
                 console.log(jqXHR);
             }
         });
-    }, 1000);
+    }, 5000);
 }

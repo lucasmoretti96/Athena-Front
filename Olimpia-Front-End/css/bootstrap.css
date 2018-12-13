@@ -3751,7 +3751,7 @@ tbody.collapse.in {
 .dropup .dropdown-menu, .navbar-fixed-bottom .dropdown .dropdown-menu {
     top: auto;
     bottom: 100%;
-    margin-bottom: 2px
+    /*margin-bottom: 2px*/
 }
 
 @media (min-width:768px) {
@@ -4096,6 +4096,11 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
     
 }
 
+.nav-side {
+   background-color:white;
+   height: 100%;
+   position: fixed;
+}
 
 .nav>li {
     position: static;
@@ -4313,7 +4318,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 .navbar {
     position: relative;
     min-height: 50px;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
     border: 1px solid transparent
 }
 
